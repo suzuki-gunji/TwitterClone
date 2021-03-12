@@ -14,12 +14,12 @@
  *= require_self
  */
 
- .header__bar{
-  display: flex;
- }
+.header__bar{
+display: flex;
+}
 
- .content_post{
-   text-align: center;
-   border: 1px solid black;
- }
+.content_post{
+  text-align: center;
+  border: 1px solid black;
+}
 
