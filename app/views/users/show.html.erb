@@ -1,5 +1,4 @@
 <p><%= @nickname %>さんの投稿一覧</p>
 <% @tweets.each do |tweet| %>
-  <%= tweet.text %>
-  <%= tweet.title %>
+  <%= render partial: "tweet", locals: {tweet: tweet} %>
 <% end %>  
