@@ -1,8 +1,10 @@
 <div class="contents row">
   <% @tweets.each do |tweet| %>
     <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+      ツイート内容
       <p><%= tweet.text %></p>
       <span class="name">
+        ユーザ名 :
         <%= tweet.title %>
       </span>
   <% end %>
