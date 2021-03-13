@@ -1,0 +1,8 @@
+.contents {
+  display: flex;
+}
+
+.contents .content_post {
+  background-color: aqua;
+}
+/*# sourceMappingURL=tweets.css.map */
